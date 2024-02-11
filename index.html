@@ -3,9 +3,12 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="viewport"
+      content="width=device-width"
+    />
 
-    <title>Projects. Development. Links - Yikstinis</title>
+    <title>Tripycal development diary - Yikstinis</title>
     <meta
       name="description"
       content="Here I'm going to share with you everything, I want to share."
@@ -16,20 +19,26 @@
       content="kChLuX6QtzU56EbxnIX9XLrq35Oo65uSySvt4CaEtjg"
     />
 
-    <meta name="robots" content="all" />
-    <link rel="canonical" href="https://yikstinis.github.io/" />
+    <meta
+      name="robots"
+      content="all"
+    />
+    <link
+      rel="canonical"
+      href="https://yikstinis.github.io/"
+    />
 
     <style>
       body {
-        font-family: "ui-sans-serif", "-apple-system", "BlinkMacSystemFont",
-          '"Segoe UI"', "Helvetica", '"Apple Color Emoji"', "Arial",
-          "sans-serif", '"Segoe UI Emoji"', '"Segoe UI Symbol"';
+        font-family: 'ui-sans-serif', '-apple-system', 'BlinkMacSystemFont',
+          '"Segoe UI"', 'Helvetica', '"Apple Color Emoji"', 'Arial',
+          'sans-serif', '"Segoe UI Emoji"', '"Segoe UI Symbol"';
 
         color: rgb(24 24 27/ 1);
       }
 
       main,
-      footer {
+      section {
         margin: 0 auto;
         max-width: 56rem;
 
@@ -59,6 +68,8 @@
 
         font-size: 1.125rem;
         line-height: 1.75rem;
+
+        text-align: center;
       }
 
       ul {
@@ -71,65 +82,93 @@
 
   <body>
     <main>
-      <img src="images/yikstinis.512x512.jpg" width="256" height="256" />
+      <section>
+        <img
+          src="images/Typical-traveler-picture-taken-in-trip.1000x562.jpg"
+          width="500"
+          height="281"
+          style="border-radius: 8px"
+        />
 
-      <h1>Projects. Development. Links</h1>
-      <p>Here I'm going to share with you everything, I want to share.</p>
+        <img
+          src="images/yikstinis.512x512.jpg"
+          width="128"
+          height="128"
+          style="border: 4px solid #fff; border-radius: 50%; margin-top: -64px"
+        />
 
-      <ul>
-        <li>
-          <a href="https://tripycal.com/">
-            Typical trip stories and travel guides
-          </a>
-        </li>
+        <h1>Tripycal development diary</h1>
 
-        <li>
-          <a
-            href="https://tripycal.com/guides/A-quiet-walk-to-Wroclaw-Botanical-Garden-64e46adcc9eb251f67099706"
+        <p>
+          Hello, I've started a new project and I'm going to share some
+          development stories and changelogs. Check also repository
+          <a href="https://github.com/yikstinis/yikstinis.github.io">
+            readme.md</a
           >
-            A quiet walk to Wroclaw Botanical Garden
-          </a>
-        </li>
+          maybe you will find something interesting there. I'm also new to most
+          things, I'm going to deal with, during this project. So, I'm going to
+          share with you my thoughts and insights.
+        </p>
+      </section>
 
-        <li>
-          <a
-            href="https://tripycal.com/guides/Holiday-park-Szczecin-One-day-city-exploring-651471fa70e1f6e7669f5f81"
-          >
-            Holiday park Szczecin. One day city exploring
-          </a>
-        </li>
-      </ul>
+      <section>
+        <h2>First release</h2>
 
-      <h3>And what ChatGPT 3.5 thinks about this stuff?</h3>
-      <p>
-        Once upon a time, a curious mind was ignited by the flickering pixels on
-        a computer screen. From the first line of code typed in, the passion for
-        development was sparked. Through countless late-night debugging sessions
-        and tutorials devoured like digital candy, skills grew like a robust
-        tree branching into various languages and frameworks. Each project
-        became a chapter in the developer's story, from simple scripts to
-        complex applications. Challenges were embraced as opportunities to
-        learn, and setbacks were seen as stepping stones to success.
-        Collaborating with fellow developers, the journey became richer,
-        exchanging ideas and insights. As technology evolved, so did the
-        developer, adapting to new paradigms and methodologies. From frontend
-        wizardry to backend sorcery, the code became a canvas for creativity and
-        problem-solving. With each line crafted, the developer's story unfolded,
-        woven with dedication, perseverance, and a sprinkle of caffeine. And as
-        the digital landscape continued to shift, the developer remained
-        steadfast, ready to embrace the next chapter, eager to innovate and
-        leave a mark in the ever-expanding realm of technology.
-      </p>
+        <p>
+          All guides are hardcoded inside JSON files. I didn't want to use any
+          database for this project yet. No design, just plain HTML and CSS. I
+          don't even use any CDN for images hosting. Maybe thats the reason, im
+          not getting green LCP score in prefrormance test, even when I preload
+          this element image.
+        </p>
+
+        <ul>
+          <li>
+            <a href="https://tripycal.com/">
+              Typical trip stories and travel guides
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://tripycal.com/guides/A-quiet-walk-to-Wroclaw-Botanical-Garden-64e46adcc9eb251f67099706"
+            >
+              A quiet walk to Wroclaw Botanical Garden
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://tripycal.com/guides/Holiday-park-Szczecin-One-day-city-exploring-651471fa70e1f6e7669f5f81"
+            >
+              Holiday park Szczecin. One day city exploring
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>After first release thoughts</h2>
+        <p>
+          Looks like Google Analytics is broken for me. I've configured it to
+          comply with GDPR. "Test your website" feature inside Installation
+          instructions tab indicates that everything is fine. Google Search
+          Console also shows some first users, came from search. But I can't see
+          them in Google Analytics. I've added small Telegram bot to track
+          incoming users. It's working fine. I'm going to use it for now.
+        </p>
+      </section>
+
+      <section>
+        <h2>What's next?</h2>
+        <p>
+          It's time to decide on my SEO strategy and work on adding some new and
+          interesting content. I'm going to notify you about any changes on this
+          page. Unfortunately, there are no notification buttons yet. But you
+          know where to find me if you want to talk about anything - welcome.
+          And I'll aprerciate any advice also.
+        </p>
+      </section>
     </main>
-
-    <footer>
-      <p>
-        Check also repository
-        <a href="https://github.com/yikstinis/yikstinis.github.io">
-          readme.md</a
-        >
-        for more info.
-      </p>
-    </footer>
   </body>
 </html>

@@ -8,7 +8,7 @@ A project about interesting places and ways to spend time. It should allow users
 
 - [Tripycal](https://tripycal.com/)
 
-## Poland guides
+## Poland
 
 - [Wroclaw Botanical Garden](https://tripycal.com/guides/A-quiet-walk-to-Wroclaw-Botanical-Garden-64e46adcc9eb251f67099706)
 

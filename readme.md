@@ -19,3 +19,5 @@ favorite places and impressions from the trip.
 - [Holiday park Szczecin](https://tripycal.com/posts/Holiday-park-Szczecin-One-day-city-exploring-651471fa70e1f6e7669f5f81)
 
 - [Elenia Gora](https://tripycal.com/posts/Spending-time-among-Jelenia-Gora-notible-locations-65ea290664bef9d8c8f82423)
+
+- [Opole](https://tripycal.com/posts/Opole-Trip-Venice-on-Mlynowka-Piast-Tower-Rynek-661d78242433c0d7e0499602)

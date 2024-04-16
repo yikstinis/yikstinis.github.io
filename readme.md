@@ -14,8 +14,8 @@ favorite places and impressions from the trip.
 
 ### Poland
 
-- [Wroclaw Botanical Garden](https://tripycal.com/guides/A-quiet-walk-to-Wroclaw-Botanical-Garden-64e46adcc9eb251f67099706)
+- [Wroclaw Botanical Garden](https://tripycal.com/posts/A-quiet-walk-to-Wroclaw-Botanical-Garden-64e46adcc9eb251f67099706)
 
-- [Holiday park Szczecin](https://tripycal.com/guides/Holiday-park-Szczecin-One-day-city-exploring-651471fa70e1f6e7669f5f81)
+- [Holiday park Szczecin](https://tripycal.com/posts/Holiday-park-Szczecin-One-day-city-exploring-651471fa70e1f6e7669f5f81)
 
-- [Elenia Gora](https://tripycal.com/guides/Spending-time-among-Jelenia-Gora-notible-locations-65ea290664bef9d8c8f82423)
+- [Elenia Gora](https://tripycal.com/posts/Spending-time-among-Jelenia-Gora-notible-locations-65ea290664bef9d8c8f82423)

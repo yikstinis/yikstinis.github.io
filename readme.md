@@ -21,3 +21,5 @@ favorite places and impressions from the trip.
 - [Elenia Gora](https://tripycal.com/posts/Spending-time-among-Jelenia-Gora-notible-locations-65ea290664bef9d8c8f82423)
 
 - [Opole](https://tripycal.com/posts/Opole-Trip-Venice-on-Mlynowka-Piast-Tower-Rynek-661d78242433c0d7e0499602)
+
+- [Wroclaw coffee and something sweet](https://tripycal.com/posts/Morning-coffee-in-Wroclaw-And-something-sweet-66274f96b3de2eebcd0bd1e4)

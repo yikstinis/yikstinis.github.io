@@ -23,3 +23,7 @@ favorite places and impressions from the trip.
 - [Opole](https://tripycal.com/posts/Opole-Trip-Venice-on-Mlynowka-Piast-Tower-Rynek-661d78242433c0d7e0499602)
 
 - [Wroclaw coffee and something sweet](https://tripycal.com/posts/Morning-coffee-in-Wroclaw-And-something-sweet-66274f96b3de2eebcd0bd1e4)
+
+- [Swidnica](https://tripycal.com/posts/Swidnica-Day-Trip-to-UNESCO-World-Heritage-Site-663ca5d6abc258ca868660fa)
+
+- [Niemodlin](https://tripycal.com/posts/Discovering-Poland-Castles-Niemodlin-Deers-and-sculpture-park-663cc560d9c8a911f11d789e)

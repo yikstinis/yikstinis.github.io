@@ -27,3 +27,7 @@ favorite places and impressions from the trip.
 - [Swidnica](https://tripycal.com/posts/Swidnica-Day-Trip-to-UNESCO-World-Heritage-Site-663ca5d6abc258ca868660fa)
 
 - [Niemodlin](https://tripycal.com/posts/Discovering-Poland-Castles-Niemodlin-Deers-and-sculpture-park-663cc560d9c8a911f11d789e)
+
+- [Stolowe Mountains](https://tripycal.com/posts/Hiking-to-Polands-Narnia-Stolowe-Mountains-64e46adcc9eb251f67099706)
+
+- [Minieuroland Klodzko](https://tripycal.com/posts/Minieuroland-A-Fairytale-for-Kids-near-Klodzko-66f02bf26573eaf399bdeba5)

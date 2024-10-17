@@ -9,7 +9,7 @@
       content="width=device-width"
     />
 
-    <title>Tripycal development diary - Yikstinis</title>
+    <title>Welcome to tripycal area - Yikstinis</title>
 
     <meta
       name="description"
@@ -47,38 +47,31 @@
 
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
+      }
+
+      div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
       }
 
       h1 {
-        margin: 1rem 0;
-
-        font-weight: 700;
-        font-size: 3rem;
-        line-height: 1;
+        font-weight: 600;
+        font-size: 1.15rem;
       }
 
-      h3 {
-        margin: 0.5rem 0;
-
-        font-weight: 700;
-        font-size: 1.5rem;
-        line-height: 2.5rem;
+      h2 {
+        font-weight: 600;
+        font-size: 1rem;
       }
 
-      p {
-        margin: 0.5rem 0;
-
-        font-size: 1.125rem;
-        line-height: 1.75rem;
-
-        text-align: center;
-      }
-
-      ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      p,
+      a,
+      ul,
+      li {
+        font-size: 0.75rem;
+        line-height: 1rem;
       }
     </style>
   </head>
@@ -86,208 +79,378 @@
   <body>
     <main>
       <section>
-        <h1>Tripycal development diary</h1>
+        <h1>Hi there, tripycal!</h1>
 
         <p>
-          Hello, I've started a new project and I'm going to share some
-          development stories and changelogs. Check also repository
-          <a href="https://github.com/yikstinis/yikstinis.github.io">
-            readme.md</a
-          >
-          maybe you will find something interesting there. I'm also new to most
-          things, I'm going to deal with, during this project. So, I'm going to
-          share with you my thoughts and insights.
+          <a href="https://tripycal.com/">Tripycal.com</a> is a travel blog that
+          offers an array of fascinating travel stories and guides, particularly
+          focusing on lesser-known destinations and unique experiences. For
+          example, it features detailed narratives about exploring the charming
+          city of Wroclaw, including a tranquil walk through the Wroclaw
+          Botanical Garden and the hidden Ossolineum Garden. The blog is ideal
+          for nature enthusiasts and those who appreciate picturesque cityscapes
+          and hidden gems. It also covers day trips to historical sites and
+          local markets, providing practical tips and beautiful photography to
+          inspire travelers.
         </p>
-      </section>
 
-      <section>
-        <h2>First release</h2>
-
-        <p>
-          All guides are hardcoded inside JSON files. I didn't want to use any
-          database for this project yet. No design, just plain HTML and CSS. I
-          don't even use any CDN for images hosting. Maybe thats the reason, im
-          not getting green LCP score in prefrormance test, even when I preload
-          this element image.
-        </p>
+        <h2>Development process:</h2>
 
         <ul>
           <li>
-            <a href="https://tripycal.com/">
-              Typical trip stories and travel guides
-            </a>
+            <b>Conceptualization:</b> Identifying the target audience and
+            defining the scope of travel content.
           </li>
 
           <li>
-            <a
-              href="https://tripycal.com/posts/A-quiet-walk-to-Wroclaw-Botanical-Garden-64e46adcc9eb251f67099706"
-            >
-              A quiet walk to Wroclaw Botanical Garden
-            </a>
+            <b>Research and Planning:</b> Conducting thorough research on
+            destinations, activities, and travel tips to provide valuable and
+            accurate information.
           </li>
 
           <li>
-            <a
-              href="https://tripycal.com/posts/Holiday-park-Szczecin-One-day-city-exploring-651471fa70e1f6e7669f5f81"
-            >
-              Holiday park Szczecin. One day city exploring
-            </a>
+            <b>Content Creation:</b> Writing engaging and informative articles,
+            capturing high-quality photographs, and designing visually appealing
+            layouts.
+          </li>
+
+          <li>
+            <b>Development and Design:</b> Building the website using
+            user-friendly design principles, ensuring responsive design for
+            various devices.
+          </li>
+
+          <li>
+            <b>Testing:</b> Conducting usability testing to ensure the site is
+            intuitive and functional.
+          </li>
+
+          <li>
+            <b>Launch and Maintenance:</b> Regularly updating the site with new
+            content and maintaining its performance and security.
           </li>
         </ul>
       </section>
 
       <section>
-        <h2>After first release thoughts</h2>
+        <h2>See also:</h2>
 
-        <p>
-          Looks like Google Analytics is broken for me. I've configured it to
-          comply with GDPR. "Test your website" feature inside Installation
-          instructions tab indicates that everything is fine. Google Search
-          Console also shows some first users, came from search. But I can't see
-          them in Google Analytics. I've added small Telegram bot to track
-          incoming users. It's working fine. I'm going to use it for now.
-        </p>
-      </section>
+        <div>
+          <ul>
+            <li><a href="https://tripycal.com/">Tripycal</a></li>
 
-      <section>
-        <h2>What's next?</h2>
+            <li>
+              <a
+                href="https://tripycal.com/posts/A-quiet-walk-to-Wroclaw-Botanical-Garden-64e46adcc9eb251f67099706"
+                >A quiet walk to Wroclaw Botanical Garden</a
+              >
+            </li>
 
-        <p>
-          It's time to decide on my SEO strategy and work on adding some new and
-          interesting content. I'm going to notify you about any changes on this
-          page. Unfortunately, there are no notification buttons yet. But you
-          know where to find me if you want to talk about anything - welcome.
-          And I'll aprerciate any advice also.
-        </p>
-      </section>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Amusing-day-trip-from-Wroclaw-Ksiaz-Castle-670a33818805348daab5da71"
+                >Amusing one day trip from Wroclaw: Ksiaz Castle</a
+              >
+            </li>
 
-      <section>
-        <h2>Content update. Current strategy</h2>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Morning-coffee-in-Wroclaw-And-something-sweet-66274f96b3de2eebcd0bd1e4"
+                >Morning coffee in Wroclaw. And something sweet...</a
+              >
+            </li>
 
-        <p>
-          Comming back with few updates. We added one more guide. Checking,
-          github domain readme pages with link impact. For some reason it takes
-          long for google to index this page. Or maybe it is disabled somewhere
-          inside google or github. Also posted first external link on wikipedia.
-          Two things, we are going to focus on right now: posting links and
-          creating content. Hope, some insights will come with it.
-        </p>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Discovering-Poland-Castles-Niemodlin-Deers-and-sculpture-park-663cc560d9c8a911f11d789e"
+                >Discovering Poland Castles: Niemodlin. Deers and sculpture
+                park</a
+              >
+            </li>
 
-        <ul>
-          <li>
-            <a
-              href="https://tripycal.com/posts/Spending-time-among-Jelenia-Gora-notible-locations-65ea290664bef9d8c8f82423"
-            >
-              Spending time among Jelenia Gora notible locations
-            </a>
-          </li>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Escape-to-Szczawno-Zdroj-Polands-Historic-Spa-670902919fe17d555abf3879"
+                >Escape to Szczawno-Zdroj: Poland's Historic Spa</a
+              >
+            </li>
 
-          <li>
-            <a
-              href="https://www.davestravelcorner.com/links/blogs-of-travel/typical-trip-stories-and-travel-guides-tripycal-43864.html"
-            >
-              Tripycal page on Dave's Travelcorner
-            </a>
-          </li>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Hidden-Gem-near-Wroclaw-Discover-Marianne-Palace-670937cf7aa9ecb1cdab7a1e"
+                >Hidden Gem near Wroclaw: Discover Marianne Palace</a
+              >
+            </li>
 
-          <li>
-            <a
-              href="https://en.wikipedia.org/wiki/University_of_Wroc%C5%82aw_Botanical_Garden"
-            >
-              University of Wroclaw Botanical Garden on Wikipedia
-            </a>
-          </li>
-        </ul>
-      </section>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Hiking-to-Polands-Narnia-Stolowe-Mountains-66eef05a66f29aff7130d8e6"
+                >Hiking to Poland's Narnia: Stolowe Mountains</a
+              >
+            </li>
 
-      <section>
-        <h2>One more content update</h2>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Klodzko-A-Day-in-Lower-Silesias-Oldest-Town-670cc5ac47a50ae07d9dd1f9"
+                >Klodzko: A Day in Lower Silesia's Oldest Town</a
+              >
+            </li>
 
-        <p>
-          New team member joined us. Helps me to work with content. So I can
-          focus on new features, optimization and linking. Current prefrormance
-          makes me sad. Right now I'm going to focus on it.
-        </p>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Mesmering-Szczecin-One-day-city-exploring-651471fa70e1f6e7669f5f81"
+                >Mesmering Szczecin. One day city exploring</a
+              >
+            </li>
 
-        <ul>
-          <li>
-            <a
-              href="https://tripycal.com/posts/Opole-Trip-Venice-on-Mlynowka-Piast-Tower-Rynek-661d78242433c0d7e0499602"
-            >
-              Opole Trip: Venice on Młynówka, Piast Tower, Rynek
-            </a>
-          </li>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Minieuroland-A-Fairytale-for-Kids-near-Klodzko-66f02bf26573eaf399bdeba5"
+                >Minieuroland: A Fairytale for Kids near Klodzko</a
+              >
+            </li>
 
-          <li>
-            <a
-              href="https://tripycal.com/posts/Morning-coffee-in-Wroclaw-And-something-sweet-66274f96b3de2eebcd0bd1e4"
-            >
-              Morning coffee in Wroclaw. And something sweet...
-            </a>
-          </li>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Opole-Trip-Venice-on-Mlynowka-Piast-Tower-Rynek-661d78242433c0d7e0499602"
+                >Opole Trip: Venice on Młynówka, Piast Tower, Rynek</a
+              >
+            </li>
 
-          <li>
-            <a href="https://en.wikipedia.org/wiki/Szczecin">
-              Szczecin Wikipedia page</a
-            >
-          </li>
-        </ul>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Spending-time-among-Jelenia-Gora-notible-locations-65ea290664bef9d8c8f82423"
+                >Spending time among Jelenia Gora notible locations</a
+              >
+            </li>
 
-        <p>
-          Btw, user entity as an author added to existing posts. Added some cool
-          interface to show author information.
-        </p>
-      </section>
+            <li>
+              <a
+                href="https://tripycal.com/posts/Swidnica-Day-Trip-to-UNESCO-World-Heritage-Site-663ca5d6abc258ca868660fa"
+                >Swidnica Day Trip to UNESCO World Heritage Site</a
+              >
+            </li>
+          </ul>
 
-      <section>
-        <h2>Content update again</h2>
+          <ul>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Szczecin">Szczecin</a>
+            </li>
 
-        <p>
-          A few posts from recent trips added. New pages are not being indexed
-          by Google for some reason...
-        </p>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/University_of_Wroc%C5%82aw_Botanical_Garden"
+                >University of Wrocław Botanical Garden</a
+              >
+            </li>
+          </ul>
 
-        <ul>
-          <li>
-            <a
-              href="https://tripycal.com/posts/Swidnica-Day-Trip-to-UNESCO-World-Heritage-Site-663ca5d6abc258ca868660fa"
-            >
-              Swidnica Day Trip to UNESCO World Heritage Site
-            </a>
-          </li>
+          <ul>
+            <li>
+              <a href="https://github.com/yikstinis/yikstinis.github.io"
+                >Readme</a
+              >
+            </li>
+          </ul>
 
-          <li>
-            <a
-              href="https://tripycal.com/posts/Discovering-Poland-Castles-Niemodlin-Deers-and-sculpture-park-663cc560d9c8a911f11d789e"
-            >
-              Discovering Poland Castles: Niemodlin. Deers and sculpture park
-            </a>
-          </li>
-        </ul>
-      </section>
+          <ul>
+            <li><a href="https://x.com/xtripycal">Tripycal</a></li>
 
-      <section>
-        <h2>New portion</h2>
+            <li>
+              <a href="https://x.com/xtripycal/status/1846126936730341761"
+                >Please, welcome! We have cool twitter cards now!</a
+              >
+            </li>
 
-        <p>After a small pause, comming back with new content!</p>
+            <li>
+              <a href="https://x.com/xtripycal/status/1846130359034847248"
+                >Enjoyable route with inspiring city nature to the Botanical
+                Garden. Discover secret Ossolineum Garden. Be ready to take some
+                awesome pictures.</a
+              >
+            </li>
 
-        <ul>
-          <li>
-            <a
-              href="https://tripycal.com/posts/Hiking-to-Polands-Narnia-Stolowe-Mountains-64e46adcc9eb251f67099706"
-            >
-              Hiking to Poland's Narnia: Stolowe Mountains
-            </a>
-          </li>
+            <li>
+              <a href="https://x.com/xtripycal/status/1846492529492963664"
+                >Walk through the most attractive city places. Visit unique
+                coffee house, hidden among the streets. Conclude the journey at
+                Holiday Park.</a
+              >
+            </li>
+          </ul>
 
-          <li>
-            <a
-              href="https://tripycal.com/posts/Minieuroland-A-Fairytale-for-Kids-near-Klodzko-66f02bf26573eaf399bdeba5"
-            >
-              Minieuroland: A Fairytale for Kids near Klodzko
-            </a>
-          </li>
-        </ul>
+          <ul>
+            <li><a href="https://pinterest.com/tripycal/">Tripycal</a></li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162811/"
+                >Green walls</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162812/"
+                >Green zone and flowerbed</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162813/"
+                >Chill zone in the garden</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162814/"
+                >Flower beds</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162815/"
+                >The view of the cathedral</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162816/"
+                >Greenhouse fairy atmosphere inside</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162817/"
+                >Aquarium picture of photographer</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162818/"
+                >Space for introverts</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162819/"
+                >Quiet bench in the shades</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162820/"
+                >Eating university yard cafe cheesecake</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162821/"
+                >Ossolineum Monastery Garden window frame</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162822/"
+                >Beautiful leaves in the greenhouse water</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162823/">
+                Botanical Garden navigation post
+              </a>
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162824/"
+                >Garden rainy vibe</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162825/"
+                >Ossolineum Garden main entrance outside</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162826/"
+                >Do not miss Yatki Street</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162827/"
+                >Architecture near the garden</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162828/"
+                >Ossolineum Garden floral window</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162829/"
+                >Botanical Garden magic greenhouse</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162830/"
+                >Botanical Garden vibrant area</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162831/"
+                >Little handmade Wroclaw gnomes</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162832/"
+                >Romantic fountain bench atmosphere</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162833/"
+                >University yard calm atmosphere</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162834/"
+                >Flowers on the local market</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162835/"
+                >Sweet cup of Paloma coffee</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162836/"
+                >Ossolineum Garden entrance inside</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162837/"
+                >Waiting for everyone to come</a
+              >
+            </li>
+
+            <li>
+              <a href="https://pinterest.com/pin/589056826295162838/"
+                >Lovely fountain pond area</a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>

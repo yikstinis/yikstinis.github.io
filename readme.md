@@ -7,7 +7,7 @@ personal, organization, or project pages from a GitHub repository.
 
 ## Tripycal
 
-[Tripycal.com](https://tripycal.com/) - a project about interesting places and
+[Tripycal.com](https://tripycal.com/) - project about interesting places and
 ways to spend time. It should allow users to find new places in their city and
 surrounding area, not miss something cool while traveling, and share their
 favorite places and impressions from the trip.
@@ -31,3 +31,11 @@ favorite places and impressions from the trip.
 - [Stolowe Mountains](https://tripycal.com/posts/Hiking-to-Polands-Narnia-Stolowe-Mountains-64e46adcc9eb251f67099706)
 
 - [Minieuroland Klodzko](https://tripycal.com/posts/Minieuroland-A-Fairytale-for-Kids-near-Klodzko-66f02bf26573eaf399bdeba5)
+
+- [Marianne Palace](https://tripycal.com/posts/Hidden-Gem-near-Wroclaw-Discover-Marianne-Palace-670937cf7aa9ecb1cdab7a1e)
+
+- [Szczawno Zdroj](https://tripycal.com/posts/Escape-to-Szczawno-Zdroj-Polands-Historic-Spa-670902919fe17d555abf3879)
+
+- [Ksiaz Castle](https://tripycal.com/posts/Amusing-day-trip-from-Wroclaw-Ksiaz-Castle-670a33818805348daab5da71)
+
+- [Klodzko](https://tripycal.com/posts/Klodzko-A-Day-in-Lower-Silesias-Oldest-Town-670cc5ac47a50ae07d9dd1f9)

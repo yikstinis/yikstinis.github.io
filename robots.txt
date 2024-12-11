@@ -1,0 +1,9 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /images/*
+Disallow: /styles/*
+Disallow: /.prettierrc
+
+Sitemap: https://yikstinis.github.io/sitemap.xml
